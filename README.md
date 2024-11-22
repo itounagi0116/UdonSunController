@@ -1,4 +1,6 @@
-# UdonSunController（日本語）
+# UdonSunController
+
+[![GitHub license](https://img.shields.io/github/license/SeaeeesSan/SimpleFolderIcon)](https://github.com/SeaeeesSan/SimpleFolderIcon/blob/master/LICENSE)
 
 **最新のUnityパッケージは[こちら](https://github.com/esnya/UdonSunController/releases/latest)からダウンロードできます！**
 
@@ -22,9 +24,6 @@ UdonSunControllerは、VRChat UdonワールドでランタイムにDirectional L
 ## v2.xからv3.xへの移行
 * プレハブからDirectional Lightが削除されました。シーンに手動で追加するか、初期設定されたものをそのまま使用してください。
 * ReflectionProbeUpdatorが削除されました。リフレクションプローブに追加した関連するUdonBehaviourを削除してください。UdonSunControllerが直接それらを更新するようになりました。
-
-## ライセンス
-MITライセンス
 
 ## ギャラリー
 ![Inspector](Documents~/img/Inspector.png)  
