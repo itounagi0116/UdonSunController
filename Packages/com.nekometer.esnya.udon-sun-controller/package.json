@@ -11,6 +11,7 @@
     "Light",
     "Unity"
   ],
+  "homepage": "https://github.com/esnya/UdonSunController#readme",
   "bugs": {
     "url": "https://github.com/esnya/UdonSunController/issues"
   },
@@ -20,24 +21,15 @@
   },
   "license": "MIT",
   "author": {
-    "name": "esnya",
-    "url": "https://github.com/esnya/UdonSunController"
+    "name": "esnya"
   },
+  "unity": "2022.3",
   "dependencies": {},
-  "legacyFiles": {},
-  "legacyFolders": {
-    "Assets\\UdonSunController": ""
-  },
-  "samples": [
-    {
-      "displayName": "Demo",
-      "description": "A Demo scene that shows the functionality of UdonSunController",
-      "path": "Demo"
-    }
-  ],
-  "unity": "2019.4",
   "vpmDependencies": {
     "com.vrchat.udonsharp": "1.1.7",
     "com.vrchat.worlds": "3.1.1"
+  },
+  "legacyFolders": {
+    "Assets\\UdonSunController": ""
   }
 }
