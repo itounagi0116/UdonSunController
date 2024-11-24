@@ -2,6 +2,8 @@
 
 ![ライセンスバッジ](https://img.shields.io/badge/ライセンス-MIT-007EC6)
 
+[日本語](https://github.com/itounagi0116/UdonSunController/blob/master/README_JP.md)
+
 **You can download latest unitypackage from [here](https://github.com/esnya/UdonSunController/releases/latest)!!**
 
 Bright daylight, Reddish sunsets or Dark night...
