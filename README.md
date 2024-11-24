@@ -2,30 +2,30 @@
 
 ![ライセンスバッジ](https://img.shields.io/badge/ライセンス-MIT-007EC6)
 
-**最新のUnityパッケージは[こちら](https://github.com/esnya/UdonSunController/releases/latest)からダウンロードできます！**
+**You can download latest unitypackage from [here](https://github.com/esnya/UdonSunController/releases/latest)!!**
 
-明るい昼間、赤みがかった夕焼け、または暗い夜...
+Bright daylight, Reddish sunsets or Dark night...
 
-UdonSunControllerは、VRChat UdonワールドでランタイムにDirectional Lightを自由にコントロールする機能を提供します。シーンにプレハブを配置するだけで、太陽の方向に応じた明るさや色温度を自動的に制御します。また、リフレクションプローブの再ベイクも可能です。
+UdonSunController provides the ability to freely control the Directional Light at runtime for your VRChat Udon world. Just place the prefab in your scene. It automatically controls the brightness and color temperature from the direction of sun. Reflection probes can also be re-baked.
 
-## 必要条件
-最新バージョンへのアップデートを推奨します。
+## Requirements
+Update to latest version.
 
 * VRCSDK3_WORLD
 * [UdonSharp](https://github.com/MerlinVR/UdonSharp)
 
-## 使い方
-1. `Assets/UdonSunController/SunController.prefab` をシーンに配置します。
-2. 配置した `SunController` のインスペクターで `Setup From Scene` ボタンを押します。
+## Usage
+1. Put `Assets/UdonSunController/SunController.prefab` into the scene.
+2. Press `Setup Fom Sene` Button on the inspector of placed `SunController`.
 
-### 新しいリフレクションプローブを追加した場合
-1. 再度 `Setup From Scene` を押してください。
+### When you added new Reflection Probe (s)
+1. Press `Setup From Scene` again.
 
-## v2.xからv3.xへの移行
-* プレハブからDirectional Lightが削除されました。シーンに手動で追加するか、初期設定されたものをそのまま使用してください。
-* ReflectionProbeUpdatorが削除されました。リフレクションプローブに追加した関連するUdonBehaviourを削除してください。UdonSunControllerが直接それらを更新するようになりました。
+## Migration from v2.x to v3.x.
+* Directional Light has been removed from the prefab. Add to your scene manually or keep the initially created one.
+* The ReflectionProbeUpdator has been removed, please remove the UdonBehaviour that references it that you added to ReflectionProbe. UdonSunController will now update them directly.
 
-## ギャラリー
-![Inspector](Documents~/img/Inspector.png)  
-![Day](Documents~/img/Day.png)  
-![Night](Documents~/img/Night.png)  
+## Gallary
+![Inspector](Documents~/img/Inspector.png)
+![Day](Documents~/img/Day.png)
+![Night](Documents~/img/Night.png)
